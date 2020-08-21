@@ -19,12 +19,12 @@
 
 bl_info = {
     "name": "Cutaway Shader",
-    "author": "Dylan Whiteman",
-    "version": (1, 2),
-    "blender": (2, 77, 0),
+    "author": "Dylan Whiteman, Ported to Blender 2.8 by Cliff Hansen",
+    "version": (1, 3),
+    "blender": (2, 8, 0),
     "location": "Shader Node > Add > Effect Shaders > Cutaway Shader",
     "description": "Cut away the parts of an object (or selected objects) that are in front of the 'Cutaway Plane'",
-    "warning": "Alpha Release (save your work before using!)",
+    "warning": "Alpha Release (save your work before using!). It was ported to 2.8 by a complete beginner so there may be errors.",
     "wiki_url": "http://blendbits.blogspot.com.au/2017/02/the-cutaway-shader-free-blender-add-on.html",
     "category": "Node"}
     

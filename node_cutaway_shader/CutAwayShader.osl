@@ -28,16 +28,16 @@
 //    Any point on the material in front of the cut-away plane (and within the bounds of the cut away plane) will be made transparent (or semi transparent if desired)
 //
 //    "name": "Cutaway Shader",
-//    "author": "Dylan Whiteman",
-//    "version": (1, 2),
-//    "blender": (2, 77, 0),
+//    "author": "Dylan Whiteman, Ported to Blender 2.8 by Cliff Hansen",
+//    "version": (1, 3),
+//    "blender": (2, 8, 0),
 //    "location": "Shader Node > Add > Effect Shaders > Cutaway Shader",
 //    "description": "Cut away the parts of an object (or selected objects) that are in front of the 'Cutaway Plane'",
-//    "warning": "Alpha Release (save your work before using!)",
-//    "wiki_url": "",
+//    "warning": "Alpha Release (save your work before using!). It was ported to 2.8 by a complete beginner so there may be errors.",
+//    "wiki_url": "http://blendbits.blogspot.com.au/2017/02/the-cutaway-shader-free-blender-add-on.html",
 //    "category": "Node"}
 
-#define MIN_BLENDER_VERSION_NO 2.7
+#define MIN_BLENDER_VERSION_NO 2.8
 #define CAS_ELLIPTICAL_CUTAWAY_SHAPE_TYPE 0
 #define CAS_RECTANGULAR_CUTAWAY_SHAPE_TYPE 1
 #define CAS_IMAGE_CUTAWAY_SHAPE_TYPE 2
